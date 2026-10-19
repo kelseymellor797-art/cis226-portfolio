@@ -1,0 +1,25 @@
+=== 1. Files ===
+total 8
+lrwxrwxrwx 1 katrina otterstaff   19 Oct 19 07:31 live -> /srv/driftwood/site
+drwxr-x--- 2 katrina otterstaff 4096 Oct 19 07:29 private
+drwxr-x--- 3 katrina otterstaff 4096 Oct 18 01:24 site
+=== 2. Permissions ===
+total 4
+-rw------- 1 katrina otterstaff 26 Oct 18 01:31 credentials.txt
+=== 3. Users ===
+uid=1003(intern) gid=1006(intern) groups=1006(intern),1005(otterstaff)
+=== 4. Processes ===
+USER         PID CMD
+=== 5. Services ===
+active
+
+* * * * * date >> $HOME/cronlab/heartbeat.log
+
+30 2 * * * tar -czf $HOME/backups/clientsite_auto.tar.gz -C $HOME clientsite
+* * * * * cd /srv && tar -czf $HOME/driftwood_backup.tar.gz driftwood/site && date >> $HOME/driftwood_cron.log
+=== 6. I/O ===
+Mon Oct 19 08:12:01 AM PDT 2026
+Mon Oct 19 08:13:01 AM PDT 2026
+ 0 /home/katrina/stdout_only.txt
+63 /home/katrina/stderr_only.txt
+63 total
