@@ -1,0 +1,11 @@
+# Private information and terminal logs
+evidence.txt
+*.log
+*.key
+*.pem
+.env
+*.tar.gz
+*history*.txt
+*recovered*.txt
+*credentials*
+.DS_Store
