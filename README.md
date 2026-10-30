@@ -7,6 +7,8 @@ Coursework portfolio for CIS 226, Introduction to Operating Systems and Command-
 - `weeks-01-07/` — selected command-line work from earlier labs
 - `week08-rehearsal/` — the Week 8 dress rehearsal verification summary
 
+- `week09-networking/` — Week 9 network and remote access troubleshooting
+
 ## Topics
 
 Linux files, users, permissions, processes, services, shell I/O, backups, and Git version control.

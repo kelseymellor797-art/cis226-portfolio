@@ -1,0 +1,10 @@
+=== 1. Keys ===
+-rw------- 1 katrina katrina 411 Oct 30 07:42 /home/katrina/.ssh/driftwood_key
+-rw-r--r-- 1 katrina katrina 101 Oct 30 07:42 /home/katrina/.ssh/driftwood_key.pub
+=== 2. Server side ===
+-rw------- 1 intern intern 101 Oct 30 07:59 /home/intern/.ssh/authorized_keys
+LISTEN 0 128 127.0.0.1:2222 0.0.0.0:* users:(("sshd",pid=62504,fd=6))
+=== 3. Login as intern ===
+uid=1003(intern) gid=1006(intern) groups=1006(intern),1005(otterstaff)
+=== 4. Copy ===
+Identical - transfer verified

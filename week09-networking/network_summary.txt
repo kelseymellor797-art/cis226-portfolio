@@ -1,0 +1,11 @@
+=== 1. Network: who am I ===
+lo             UNKNOWN        127.0.0.1/8 ::1/128
+eth0           UP             10.0.2.15/24 fd17:625c:f037:2:9a79:9473:439c:b4ac/64 fd17:625c:f037:2:a00:27ff:fed6:2ae3/64 fe80::a00:27ff:fed6:2ae3/64
+default via 10.0.2.2 dev eth0 proto dhcp src 10.0.2.15 metric 100
+=== 2. Reachability ===
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 14.148/17.335/20.522/3.187 ms
+=== 3. Ports ===
+LISTEN 0 5 0.0.0.0:8000 0.0.0.0:* users:(("python3",pid=20544,fd=3))
+=== 4. Web status ===
+HTTP/1.0 200 OK
