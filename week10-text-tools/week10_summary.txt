@@ -1,0 +1,27 @@
+=== 1. Config ===
+bind = 0.0.0.0
+debug = off
+admin_page = private
+
+=== 2. Site ===
+Pages with the OLD phone:
+0
+Pages with the NEW phone:
+100
+
+=== 3. Sales ===
+Revenue: $551.78
+
+=== 4. Users ===
+     20 /usr/sbin/nologin
+      2 /bin/bash
+      1 /bin/sync
+
+=== 5. Shelf ===
+     1	Shelf A
+     2	Sea Glass and Silence - sale
+     3	The Quiet Harbor - sale
+     4	Compass Rose
+     5	Shelf B
+     6	Tides of Tuesday
+     7	Compass Rose

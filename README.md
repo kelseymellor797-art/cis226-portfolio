@@ -8,6 +8,7 @@ Coursework portfolio for CIS 226, Introduction to Operating Systems and Command-
 - `week08-rehearsal/` — the Week 8 dress rehearsal verification summary
 
 - `week09-networking/` — Week 9 network and remote access troubleshooting
+- `week10-text-tools/` - my Week 10 work: editing text with vim, sed, and awk
 
 ## Topics
 
