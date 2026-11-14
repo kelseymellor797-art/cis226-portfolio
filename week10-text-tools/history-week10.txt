@@ -1,0 +1,16 @@
+    1  cd /workspaces/cis226-portfolio/week10-text-tools
+    2  pwd
+    3  ls site | wc -l
+    4  wc -l driftwood.conf shelf.txt
+    5  grep -E '^(bind|debug|admin_page|alert_email)' driftwood.conf
+    6  grep -l 555-0199 site/*.html | wc -l
+    7  grep -l 555-0142 site/*.html | wc -l
+    8  grep -l new-shop site/*.html | wc -l
+    9  cat -n shelf.txt
+   10  cat week10_summary.txt
+   11  awk -F, 'NR>1 {total += $3*$4} END {printf "Revenue: $%.2f\n", total}' sales.csv
+   12  awk -F, 'NR>1 && $5=="online" {t += $3*$4} END {printf "Online: $%.2f\n", t}' sales.csv
+   13  awk -F: '{print $7}' /etc/passwd | sort | uniq -c | sort -rn | head -3
+   14  git log -5 --oneline
+   15  git status --short
+   16  history > history-week10.txt
