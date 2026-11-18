@@ -1,0 +1,21 @@
+== Scripts ==
+-rwxrwxrwx 1 codespace codespace  64 Nov 18 02:10 args.sh
+-rwxrwxrwx 1 codespace codespace 107 Nov 18 02:10 greeter.sh
+-rwxrwxrwx 1 codespace codespace 137 Nov 18 02:09 hello.sh
+-rwxrwxrwx 1 codespace codespace 703 Nov 18 02:11 opening-report.sh
+== Default file ==
+=== Driftwood Books: Morning Report ===
+Good morning, Sam. Today is Wednesday.
+Reading: sales.csv
+Sales: 6
+Books: 22
+Revenue: $246.23
+Online revenue: $123.75
+== Week 2 file ==
+=== Driftwood Books: Morning Report ===
+Good morning, Sam. Today is Wednesday.
+Reading: sales-week2.csv
+Sales: 3
+Books: 12
+Revenue: $126.21
+Online revenue: $48.75

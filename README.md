@@ -13,3 +13,4 @@ Coursework portfolio for CIS 226, Introduction to Operating Systems and Command-
 ## Topics
 
 Linux files, users, permissions, processes, services, shell I/O, backups, and Git version control.
+- week11-first-scripts: my first Bash scripts
