@@ -1,0 +1,20 @@
+    1  echo "== Week 11 verification session =="
+    2  bash hello.sh
+    3  ./hello.sh
+    4  echo "My shell's PID is $$"
+    5  ./hello.sh
+    6  shop="Driftwood Books"
+    7  echo "Welcome to $shop"
+    8  echo 'Welcome to $shop'
+    9  echo "${shop}_sign"
+   10  bash -c 'echo "Child sees: [$shop]"'
+   11  export shop
+   12  bash -c 'echo "Child sees: [$shop]"'
+   13  ./args.sh Compass Rose
+   14  ./args.sh "Compass Rose" 2026
+   15  echo Katrina | ./greeter.sh
+   16  wc -l sales.csv sales-week2.csv
+   17  echo Katrina | ./opening-report.sh
+   18  echo Katrina | ./opening-report.sh sales-week2.csv
+   19  git log -4 --oneline
+   20  history > history-week11.txt
